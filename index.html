@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tinelsey Podcast</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #FFFFFF;
+      background-color: #000000;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /* Header Styles */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #FF1493;
+    }
+
+    header .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    header nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    header nav a {
+      color: #FFFFFF;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x1080') no-repeat center/cover;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      color: #FF1493;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      margin: 20px 0;
+      color: #9EA9A6;
+    }
+
+    .hero .cta {
+      margin-top: 30px;
+    }
+
+    .hero .cta a {
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      background-color: #FF1493;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .hero .cta a:hover {
+      background-color: #4682B4;
+    }
+
+    /* Episode Slider */
+    .episodes {
+      padding: 50px 20px;
+      background-color: #000000;
+    }
+
+    .episodes h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #FF1493;
+      margin-bottom: 30px;
+    }
+
+    .episodes .slider {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;
+      padding: 20px;
+    }
+
+    .episodes .episode {
+      flex: 0 0 300px;
+      background-color: #1C1C1C;
+      border-radius: 10px;
+      padding: 20px;
+      color: #FFFFFF;
+    }
+
+    .episodes .episode img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .episodes .episode h3 {
+      margin: 15px 0 10px;
+      color: #FF1493;
+    }
+
+    .episodes .episode p {
+      font-size: 14px;
+      color: #9EA9A6;
+    }
+
+    .episodes .episode button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      border: none;
+      background-color: #FF1493;
+      color: #FFFFFF;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .episodes .episode button:hover {
+      background-color: #4682B4;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1C1C1C;
+      color: #9EA9A6;
+    }
+
+    footer a {
+      color: #FF1493;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Tinelsey Podcast</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Episodes</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h1>Welcome to Tinelsey Podcast</h1>
+      <p>Empowering Women, Inspiring Positivity, and Celebrating Lifestyle Choices.</p>
+      <div class="cta">
+        <a href="#">Listen Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Episodes Slider -->
+  <section class="episodes">
+    <h2>Latest Episodes</h2>
+    <div class="slider">
+      <div class="episode">
+        <img src="https://via.placeholder.com/300x200" alt="Episode 1">
+        <h3>Episode 1: Self-Care Matters</h3>
+        <p>Discover practical self-care tips for a healthier lifestyle.</p>
+        <button>Play Now</button>
+      </div>
+      <div class="episode">
+        <img src="https://via.placeholder.com/300x200" alt="Episode 2">
+        <h3>Episode 2: Positivity in Action</h3>
+        <p>Learn how to cultivate positivity in daily life.</p>
+        <button>Play Now</button>
+      </div>
+      <div class="episode">
+        <img src="https://via.placeholder.com/300x200" alt="Episode 3">
+        <h3>Episode 3: Lifestyle Hacks</h3>
+        <p>Explore hacks to elevate your lifestyle effortlessly.</p>
+        <button>Play Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Tinelsey Podcast. All Rights Reserved. <a href="#">Privacy Policy</a></p>
+  </footer>
+</body>
+</html>
